@@ -9,51 +9,51 @@ spring:
         - id: accounting-service
           uri: lb://accounting-service
           predicates:
-        - Path=/accounting/**
+          - Path=/accounting/**
         - id: baggage-service
           uri: lb://baggage-service
           predicates:
-        - Path=/baggage/**
+          - Path=/baggage/**
         - id: boarding-service
           uri: lb://boarding-service
           predicates:
-        - Path=/boarding/**
+          - Path=/boarding/**
         - id: check-in-service
           uri: lb://check-in-service
           predicates:
-        - Path=/check-in/**
+          - Path=/check-in/**
         - id: data-references-service
           uri: lb://data-references-service
           predicates:
-        - Path=/data-references/**
+          - Path=/data-references/**
         - id: flight-service
           uri: lb://flight-service
           predicates:
-        - Path=/flight/**
+          - Path=/flight/**
         - id: inventory-service
           uri: lb://inventory-service
           predicates:
-        - Path=/inventory/**
+          - Path=/inventory/**
         - id: payment-service
           uri: lb://payment-service
           predicates:
-        - Path=/payment/**
+          - Path=/payment/**
         - id: pricing-service
           uri: lb://pricing-service
           predicates:
-        - Path=/pricing/**
+          - Path=/pricing/**
         - id: reservation-service
           uri: lb://reservation-service
           predicates:
-        - Path=/reservation/**
+          - Path=/reservation/**
         - id: search-service
           uri: lb://search-service
           predicates:
-        - Path=/search/**
+          - Path=/search/**
         - id: seating-service
           uri: lb://seating-service
           predicates:
-        - Path=/seating/**
+          - Path=/seating/**
 
 
 server:
